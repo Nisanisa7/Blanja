@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My order</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./asset/profile seller orderCancel.css">
+
+</head>
+<body>
+   
+ <!-- navbar -->
+ <header>
+  <div class="logo">
+      <a href="home-bflogin.html">
+          <img src="./asset/image/shopping-bag 1.png" alt="">
+          <img class="img2" src="./asset/image/Blanja.png" alt="">
+       </a>
+  </div>
+  <div class="center-element">
+      <!-- <div class="box-container">
+           <table class="element">
+              <tr>
+                  <td><input class="search" type="text" name="" id="" placeholder="search"></td>
+                  <td><a href=""><img src="./asset/image/Search.png" alt=""></a></td>
+              </tr>
+              </table>
+      </div>
+      <div class="side-button">
+          <button data-toggle="modal" data-target="#exampleModalLong"><img src="./asset/image/Vector.png" alt=""></button>
+      </div> -->
+  </div>
+  <div class="nav">
+      <ul class="nav_link">
+          <!-- <li><a href=""><img src="./asset/image/shopping-cart (2) 1 (1).png" alt=""></a></li> -->
+          <li><a href=""><img src="./asset/image/bell (1) 1.png" alt=""></a></li>
+          <li><a href=""><img src="./asset/image/mail (3) 1.png" alt=""></a></li>
+          <li><a href="profile.html"><img src="./asset/image/Mask Group.png" alt=""></a></li>
+      </ul>
+  </div>
+</header>   
+ <!-- end of navbar -->
+ <!-- --------------------------------------------------------------------------------------------------------------------------    -->
+ <aside>
+    <div class="sidebar">
+      <div class="profile">
+          <div class="imageprofile">
+            <img class="img1" src="./asset/image/christian-buehner-DItYlc26zVI-unsplash 1.png" alt="">
+          </div>
+          <div class="profile-det">
+              <h4 class="nameP">Johanes Mikael</h4 class="nameP">
+                <div class="row">
+                    <div class="col-md-1">
+                        <img class="pen" src="./asset/image/Pen.png" alt="">
+                    </div>
+                    <div class="col-md5">
+                        <p class="editP">Ubah profile</p>
+                    </div>
+                </div>
+            </div>                   
+      </div>
+
+        <div class="link-profile">
+            <div class="imagePr">
+                <div class="imag1">
+                    <img src="./asset/image/sidebar customer/Ellipse 281.png" alt="">
+                </div>
+                <div class="imag2">
+                    <img src="./asset/image/sidebar customer/Ellipse 282.png" alt="">
+                </div>
+                <div class="imag3">
+                    <img src="./asset/image/sidebar customer/Ellipse 286.png" alt="">
+                </div>
+               
+            </div>
+            <div class="namelink">
+                <div class="nameli1">
+                    <!-- <a href="profile.html">My account</a> -->
+                    <div class="dropdown">
+                        <button class="btn dropbutton dropdown-toggle" type="button" data-toggle="dropdown">Store
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                          <li><a href="./profile seller.html">Store profile</a></li>
+                        </ul>
+                      </div>
+                </div>
+                <div class="nameli2">
+                    <div class="dropdown">
+                        <button class="btn dropbutton dropdown-toggle" type="button" data-toggle="dropdown">Product
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                          <li><a href="profile seller my products.html">My Products</a></li>
+                          <li><a href="#">Selling Products</a></li>
+                        </ul>
+                      </div>
+                </div>
+                <div class="nameli3">
+                    <div class="dropdown">
+                        <button class="btn dropbutton dropdown-toggle" type="button" data-toggle="dropdown">Order
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                          <li><a href="./profile seller my order.html">My order</a></li>
+                          <li><a href="./profile seller order cancel.html">Order cancel</a></li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+        </div>   
+    </div>
+</aside>
+ <!-- ----------------------------- END OF SIDEBAR------------------------------- -->
+
+ <div class="container">
+    <main>
+      <div class="card mainCard">
+        <div class="card-header headCard">
+          <h4 class="mineOrder">My order</h4>
+          <nav>
+            <a href="#" >All items</a>
+            <a href="#"class="a1">Get paid</a>
+            <a href="#"class="a1">Packed</a>
+            <a href="#"class="a1">Processed</a>
+            <a href="#"class="a1">Sent</a>
+            <a href="#"class="a1 ">Completed</a>
+            <a href="#"class="a1 active">Order Cancel</a>
+            <div class="animation start-card"></div>
+          </nav>
+          <!-- <ul class="nav nav-tabs card-header-tabs">
+             <li class="nav-item">
+              <a class="nav-link active"  id="home-tab" data-toggle="tab" href="#home">All items</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="paidnt-tab" data-toggle="tab" href="#paidnt">Not yet paid</a>
+            </li>
+           <li class="nav-item">
+              <a class="nav-link"  id="packed-tab" data-toggle="tab" href="#packed">Packed</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  id="sent-tab" data-toggle="tab" href="#sent">Sent</a>
+            <li class="nav-item">
+              <a class="nav-link"  id="completed-tab" data-toggle="tab" href="#completed">Completed</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  id="cancel-tab" data-toggle="tab" href="#cancel">Order Cancel</a>
+            </li>
+          </ul>
+        </div> -->
+      </div>
+      <div class="card-body">
+        <div class="searchbar">
+          <input type="search" name="" id="" placeholder="Search">
+      </div>
+      <div class="centerImage">
+        <img src="./asset/image/Group 1246.png" alt="">
+      </div>
+     
+      </div>
+    </main>
+</div>
+
+
+
+<!-- script bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+</html>

@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>checkout</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./asset/chechout.css">
+</head>
+
+<body>
+   <!-- navbar -->
+   <header>
+    <div class="wrapperHead container">
+
+      <div class="logo">
+        <a href="home-bflogin.html"></a>
+          <img src="./asset/image/shopping-bag 1.png" alt="">
+          <img class="img2" src="./asset/image/Blanja.png" alt="">
+       </a>
+      </div>
+      <div class="search-bar">
+          <div class="box-container">
+            <input class="search" type="text" name="" id="" placeholder="search">
+               <!-- <table class="element">
+                  <tr>
+                      <td><input class="search" type="text" name="" id="" placeholder="search"></td>
+                      <td><a href=""><img src="./asset/image/Search.png" alt=""></a></td>
+                  </tr>
+                  </table> -->
+          </div>
+          <div class="side-button">
+              <button data-toggle="modal" data-target="#exampleModalLong"><img src="./asset/image/Vector.png" alt=""></button>
+          </div>
+      </div>
+      <div class="nav">
+          <ul class="nav_link">
+              <li><a href="mybag.html"><img src="./asset/image/shopping-cart (2) 1 (1).png" alt=""></a></li>
+              <li><a href=""><img src="./asset/image/bell (1) 1.png" alt=""></a></li>
+              <li><a href=""><img src="./asset/image/mail (3) 1.png" alt=""></a></li>
+              <li><a href="profile.html"><img src="./asset/image/Mask Group.png" alt=""></a></li>
+          </ul>
+      </div>
+    </div>
+  </header>
+  <!-- end of navbar -->
+  <div class="container">
+
+    <div class="texthead2">
+      <h1 class="text-category">Checkout</h1>
+      <p class="text-smol">Shipping Address</p>
+    </div>
+
+    <div class="row no-gutters">
+      <div class="col-md-8">
+        <div class="card topcard">
+          <div class="card-body">
+            <h5 class="card-title tittle1">Andreas Jane</h5>
+            <p class="card-text tittle2">Perumahan Sapphire Mediterania, Wiradadi, Kec. Sokaraja, Kabupaten Banyumas,
+              Jawa Tengah, 53181 [Tokopedia Note: blok c 16] Sokaraja, Kab. Banyumas, 53181</p>
+            <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#address">Choose
+              another address</button>
+          </div>
+        </div>
+        <div class="card topcard">
+          <div class="card-body bodyC">
+              <img class="imagejas" src="./asset/image/gez-xavier-mansfield-b34E1vh1tYU-unsplash 1.png" alt="">
+              <div class="text">
+                <p class="txt1">Men's formal suit - Black</p>
+                <span class="txt2">Zara Cloth</span>
+              </div>
+              <div class="text3">
+                <span class="price">$20.00</span>
+              </div>
+
+          </div>
+        </div>
+
+        <div class="card topcard">
+          <div class="card-body bodyC">
+              <img class="imagejas" src="./asset/image/gez-xavier-mansfield-b34E1vh1tYU-unsplash 1.png" alt="">
+              <div class="text">
+                <p class="txt1">Men's formal suit - Black</p>
+                <span class="txt2">Zara Cloth</span>
+              </div>
+              <div class="text3">
+                <span class="price">$20.00</span>
+              </div>
+
+          </div>
+        </div>
+        </div>
+      <div class="col-md-4">
+        <div class="card shadow sec-card">
+          <div class="card-body">
+            <h5 class="card-title shoppingsum">Shopping summary</h5>
+            <div class="row">
+              <div class="col orderDetail">
+                <p class="Cardtext">Order</p>
+                <p class="Cardtext">Delivery</p>
+              </div>
+                <div class="col orderDetail">
+                  <p class="priceCard" for="">$ 40.5</p class="priceCard">
+                  <p class="priceCard" for="">$ 5.5</p class="priceCard">
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col orderDetail2">
+                <p class="shoppingsum2">Shopping summary</p>
+              </div>
+              <div class="col orderDetail2">
+                <p class="priceCard2" for="">$ 45.5</p class="priceCard">
+              </div>
+            </div>
+            <button type="button" class="btn btn-danger btncard2" data-toggle="modal" data-target="#exampleModal">Select
+              payment</button>
+          </div>
+        </div>
+      </div>
+
+      <div style="visibility: hidden;">
+        aaaaaa
+      </div>
+    </div>
+
+
+    <!-- modal payment -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title mtitle" id="exampleModalLabel">Payment</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h5 class="paymentM">Payment Method</h5>
+            <div class="payment-item">
+              <div class="image-pay">
+
+                <div class="method1">
+                  <img src="./asset/image/Logo-GoPay-Vector-CDR-dan-PNG 1.png" alt="">
+                </div>
+
+                <div class="method2">
+                  <img src="./asset/image/kisspng-pos-indonesia-mail-point-of-sale-logo-indonesia-5aeb329c2f74d7 1.png"
+                    alt="">
+                </div>
+
+                <div class="method3">
+                  <img src="asset/image/Group.png" alt="">
+                </div>
+
+              </div>
+
+              <div class="namepay">
+                <div class="payname1">
+                  <label for="">Gopay</label>
+                </div>
+                <div class="payname2">
+                  <label for="">Pos Indonesia</label>
+                </div>
+                <div class="payname3">
+                  <label for="">Master Card</label>
+                </div>
+
+              </div>
+
+              <div class="boxpay">
+                <div class="cek1">
+                  <input type="checkbox" class="checkmark checkS" id="" name="" value="">
+                </div>
+                <div class="cek2">
+                  <input type="checkbox" class="checkmark checkS" id="" name="" value="">
+                </div>
+                <div class="cek3">
+                  <input type="checkbox" class="checkmark checkS" id="" name="" value="">
+                </div>
+
+              </div>
+            </div>
+            <hr>
+            <h5 class="paymentM2">Payment Method</h5>
+            <div class="row">
+              <div class="col orderDetail">
+                <p class="Cardtext">Order</p>
+                <p class="Cardtext">Delivery</p>
+              </div>
+              <div class="col orderDetail">
+                <p class="priceCard" for="">$ 40.5</p class="priceCard">
+                <p class="priceCard" for="">$ 5.5</p class="priceCard">
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer foot">
+            <div class="textWrap">
+              <p class="summ">Shopping summary</p>
+              <p class="total">$ 45.0</p>
+            </div>
+            <input type="submit" class="btn btn-danger" value="Save">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end of modal -->
+
+
+
+
+
+    <!-- modal address -->
+    <!-- Modal -->
+    <div class="modal fade" id="address" tabindex="-1" role="dialog" aria-labelledby="address" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <!-- <p class="text-center" id="exampleModalLongTitle">Choose another address</p> -->
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p class="text-center titlem" id="exampleModalLongTitle">Choose another address</p>
+            <div class="contentwrap">
+              <div class="box1">
+                <a data-target="#add" data-toggle="modal" class="MainNavText" id="MainNavHelp" href="#add">
+                  <p class="textup">Add new address address</p>
+                </a>
+              </div>
+
+              <div class="box2">
+
+                <p class="box2txt">Andreas Jane</p>
+                <p class="box2txt2">Perumahan Sapphire Mediterania, Wiradadi, Kec. Sokaraja, Kabupaten Banyumas, Jawa
+                  Tengah, 53181 [Tokopedia Note: blok c 16] Sokaraja, Kab. Banyumas, 53181</p>
+                <a data-target="#edit" data-toggle="modal" class="MainNavText" id="MainNavHelp" href="#edit">Change
+                  address</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of modal -->
+    <!-- ------- Modal add new address ------------------ -->
+    <div class="modal fade" id="add" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <form action="" method="post">
+            <div class="modal-body">
+              <p class="text-center titlem" id="exampleModalLongTitle">Add another address</p>
+
+              <div class="form-group firstform">
+                <label for="recipient-name" class="col-form-label">Save address as (ex : home address, office
+                  address)</label>
+                <input type="text" class="form-control fieldS" id="recipient-name" name="" placeholder="Rumah">
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="editname">Recipient’s name</label>
+                  <input type="text" class="form-control fieldS" id="editname" name="">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="editphonenumber">Recipient's telephone number</label>
+                  <input type="text" class="form-control fieldS" id="editphonenumber" name="">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputAddress">Address</label>
+                  <input type="text" class="form-control fieldS" id="inputAddress" name="">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputpostalcode">Postal code</label>
+                  <input type="text" class="form-control fieldS" id="inputpostalcode" name="">
+                </div>
+
+
+                <div class="form-group col-md-6">
+                  <label for="inputCity">City or Subdistrict</label>
+                  <input type="text" class="form-control fieldS md-6" id="inputCity">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input boxC" type="checkbox" id="gridCheck">
+                  <label class="form-check-label labelC" for="gridCheck">
+                    Make it the primary address
+                  </label>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary buttonfoot" data-dismiss="modal">Close</button>
+              <input type="submit" class="btn btn-danger buttonfoot" value="Save">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+ <!-- modal change address -->
+ <div class="modal fade" id="address" tabindex="-1" role="dialog" aria-labelledby="address" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <p class="text-center" id="exampleModalLongTitle">Choose another address</p> -->
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p class="text-center titlem" id="exampleModalLongTitle">Choose another address</p>
+        <div class="contentwrap">
+          <div class="box1">
+            <a data-target="#add" data-toggle="modal" class="MainNavText" id="MainNavHelp" href="#add">
+              <p class="textup">Add new address address</p>
+            </a>
+          </div>
+
+          <div class="box2">
+
+            <p class="box2txt">Andreas Jane</p>
+            <p class="box2txt2">Perumahan Sapphire Mediterania, Wiradadi, Kec. Sokaraja, Kabupaten Banyumas, Jawa
+              Tengah, 53181 [Tokopedia Note: blok c 16] Sokaraja, Kab. Banyumas, 53181</p>
+            <a data-target="#edit" data-toggle="modal" class="MainNavText" id="MainNavHelp" href="#edit">Change
+              address</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end of modal -->
+
+<!-- ------------------modal edit -->
+<div class="modal fade" id="edit" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <form action="" method="post">
+        <div class="modal-body">
+          <p class="text-center titlem" id="exampleModalLongTitle">Change address</p>
+
+          <div class="form-group firstform">
+            <label for="recipient-name" class="col-form-label">Save address as (ex : home address, office
+              address)</label>
+            <input type="text" class="form-control fieldS" id="recipient-name" name="" placeholder="Rumah">
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="editname">Recipient’s name</label>
+              <input type="text" class="form-control fieldS" id="editname" name="" value="Andreas Jane">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="editphonenumber">Recipient's telephone number</label>
+              <input type="text" class="form-control fieldS" id="editphonenumber" name="" value="08xxxxx">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control fieldS" id="inputAddress" name="" value="Perumahan Sapphire Mediterania, Wiradadi, Kec. Sokaraja, Kabupaten Banyumas">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputpostalcode">Postal code</label>
+              <input type="text" class="form-control fieldS" id="inputpostalcode" name="" value="53181">
+            </div>
+
+
+            <div class="form-group col-md-6">
+              <label for="inputCity">City or Subdistrict</label>
+              <input type="text" class="form-control fieldS md-6" id="inputCity" value="Jawa Tengah">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input boxC" type="checkbox" id="gridCheck">
+              <label class="form-check-label labelC" for="gridCheck">
+                Make it the primary address
+              </label>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-secondary buttonfoot" data-dismiss="modal">Close</button>
+          <input type="submit" class="btn btn-danger buttonfoot" value="Save">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- end moda; -->
+    <!-- script bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
