@@ -1,0 +1,213 @@
+/* 
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #e0e0e0;
+} */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .wrapper{
+        /* position: absolute; */
+        width: 100%;
+        height: 100%;
+    }
+    .logo{
+        display: none;
+    }
+    .h1-phone{
+        display: unset !important;
+    }
+    .btn-group{
+        display: none !important;
+    }
+    .register-link{
+        display: none;
+    }
+    
+}
+
+
+.h1-phone{
+    display: none;
+}
+body{
+    font-family: 'Metropolis';
+}
+.wrapper{
+    width: 400px;
+    /* background-color: lightgray; */
+    /* padding: 0 50px 0 50px; */
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    overflow: none;
+    
+}
+
+.logo{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper .text{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Metropolis;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-group button{
+    display: inline-block;
+    width: 123px;
+    height: 48px;
+    border: 1px solid #9B9B9B;
+    /* border-radius: none !important; */
+    
+}
+.btn-group{
+    margin-top: 20px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    
+}
+.cus{
+    
+    background: white;
+    border-right: none !important;
+    border-radius: 4px 0px 0px 4px;
+
+}
+.seller{
+    background: #DB3022;
+    border-color: #DB3022 !important;
+    color: white;
+    border-left: none !important; 
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+
+    
+}
+
+.wrapper .form{
+    margin-top: 20px;
+   
+}
+.field{
+    height: 48px;
+    width: 100%;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #9B9B9B;
+    padding-left: 20px;
+}
+.form-control{
+    height: 48px;
+    width: 100%;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #9B9B9B;
+    padding-left: 20px;
+}
+.forgot-pass{
+    margin-top: 20px;
+    text-align-last: right;
+
+}
+.forgot-pass a, .register-link a{
+    color: #DB3022;
+    text-decoration: none;
+}
+.btn{
+    height: 48px;
+    width: 100%;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 1px solid lightgray;
+    background: #DB3022;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+.register-link{
+    margin-top: 20px;
+    text-align: center;
+}
+/* .text{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.btn-group button{
+    width: 123px;
+    height: 48px;
+    font-size: 14px;
+    border: 1px solid #9B9B9B;
+    padding: 10px 24px;
+    cursor: pointer;
+    float: left;
+    border-radius: 4px;
+    background: transparent;
+
+}
+.btn-group:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.btn-group button:not{
+    border-right: none;
+}
+
+.logo{
+    width: fit-content;
+
+} */
+/* .form .field{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+} */
+/* .field input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 15px;
+    font-size: 14px;
+    border: 1px solid lightgray;
+}
+.btn{
+    border-radius: 25px;
+    background: #DB3022;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+.forgot-pass{
+    margin-top: 20px;
+    text-align-last: right;
+
+}
+.forgot-pass a, .register-link a{
+    color: #DB3022;
+    text-decoration: none;
+}
+.register-link{
+    margin-top: 20px;
+    text-align: center;
+} */

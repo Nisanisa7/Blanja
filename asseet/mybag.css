@@ -1,0 +1,546 @@
+@media only screen and (max-width: 600px) {
+    .wrapperHead{
+        display: block !important;
+    }
+    .logo{
+        margin: auto !important;
+        width: fit-content;
+        /* border: 1px solid #000; */
+    }
+    .search-bar{
+       width: 100% !important;
+    }
+    /* .box-container{
+       display: none;
+    }
+    .side-button{
+        display: none;
+    } */
+    .nav{
+       width: 100%;
+    }
+    .nav_link{
+        margin: auto !important;
+    }
+    .nav_link li{
+        padding: 0px 20px !important;
+    }
+}
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Metropolis';
+}
+li{
+    text-decoration: none;
+}
+
+.logo{
+    cursor: pointer;
+    margin: 10px;
+    width: fit-content;
+    /* float: left; */
+    height: auto;
+    padding:0;
+    
+}
+.wrapperHead{
+    padding-top: 15px;
+    display: flex;
+    height: auto;
+    /* border: 1px solid #000; */
+    justify-content: space-between;
+    /*color: #ffff;
+    align-items: center;
+    padding: 30px 10%;*/
+    box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25); 
+}
+.img2{
+    padding-top: 10px;
+}
+.search-bar{
+    width: 507px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.box-container{
+    /* margin: auto; */
+    margin-right: 10px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #8E8E93;
+    border-radius: 23px;
+
+}
+.element{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.search{
+    border: none;
+    background: none;
+    padding-top: 9px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+.search:focus{
+    outline: none;
+}
+/* .side-button{
+    margin-left: 10px;
+    margin-top: 10px;
+} */
+.side-button button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #8E8E93;
+    border-radius: 12px;
+    background: none;
+    cursor: pointer;
+    
+}
+/* .nav{
+    border: 1px solid tomato;
+} */
+.nav_link{
+    list-style: none;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.nav_link li{
+    display: inline-block;
+    padding: 0px 2px;
+    /* height: 100%; */
+}
+.nav_link li a img{
+    margin: 10px;
+}
+
+/* --------------------------- navbar css --------------------------------------------- */
+.texthead2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+.text-category{
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 34px;
+}
+.topcard{
+    /* margin-top: 14px; */
+    width: 100% !important;
+    height: 126px;
+    margin-bottom: 10px;
+}
+.cardC{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+.check1st{
+      /* background-color: cadetblue; */
+      width: 20px;
+      margin-top: 23px;
+}
+.text1st{
+     /* background-color: darkgoldenrod; */
+     width: 200px;
+     margin-left: 10px;
+     margin-top: 20px;
+}
+.delText{
+     /* background-color: darkmagenta; */
+     width: 450px;
+     margin-left: 100px;
+     text-align-last: right;
+     margin: 25px;
+}
+.deleteT{
+    font-size: 16px;
+    line-height: 16px;
+    color: #DB3022;
+}
+/* ======================================================================= */
+.bodyC{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+}
+.checkbSide{
+    /* background-color: cadetblue; */
+    width: 20px;
+    margin-top: 23px;
+}
+.checkMark{
+    width: 20px;
+    height: 20px;
+}
+.imageCard{
+    /* background-color: darkblue; */
+    width: 103px;
+    margin-left: 12px;
+}
+.text{
+    /* background-color: darkgoldenrod; */
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.buttonAdd{
+    /* background-color: darkcyan; */
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 12px;
+    margin-top: 15px; */
+}
+.buttonPlus{
+    width: 36px;
+    height: 36px;
+    background: #D4D4D4;
+    border-radius: 80px;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.buttonMin{
+    margin-left: 10px;
+    width: 36px;
+    height: 36px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(142, 142, 142, 0.25);   
+    border-radius: 80px;
+    border: none;
+    cursor: pointer;
+    
+}
+.numCen{
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+}
+.text3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: darkmagenta; */
+    width: 120px;
+    text-align-last: right;
+}
+.topcard2{
+    padding-top: 12px;
+    margin-top: 14px;
+    width: 100%;
+    height: 126px;
+}
+.imagejas{
+    width: 103px;
+    height: 69px;
+    border-radius: 8px;
+}
+/* .text{
+    padding-left: 10px;
+    padding-top: 0px;
+} */
+.txt1{
+    padding-top: 1px;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.txt2{
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: #9B9B9B;
+}
+/* .text3{
+    width: 450px;
+    margin-top: 20px;
+    text-align-last: right;
+} */
+.price{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 0px;
+}
+
+/* --------------------------------------------------------------------- */
+.topcard3{
+    padding-top: 20px;
+    margin-top: 14px;
+    width: 720px;
+    height: 126px;
+}
+
+
+
+
+/* ---------------- card 2 */
+
+.sec-card{
+    width: 720px;
+    height: auto;
+    margin: auto;
+    padding: 20 0px;
+}
+.btncard2{
+    width: 100%;
+    border-radius: 25px;
+    align-items: center;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+.shoppingsum{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+
+}
+.shoppingsum2{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+
+}
+.orderDetail{
+    margin-top: 30px;
+    font-weight: 500;
+}
+.orderDetail2{
+    font-weight: 500;
+ 
+}
+.Cardtext{
+    font-size: 16px;
+    line-height: 16px;
+    color: #9B9B9B;  
+}
+.priceCard{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    /* margin-left: 100px; */
+}
+.priceCard2{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+}
+hr{
+    margin-top: 20px;
+}
+/* --------------------------------- */
+
+.contentwrap{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: aliceblue; */
+    height: 400px;
+    align-items: center;
+}
+.titlem{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    color: #222222;
+    
+}
+.box1{
+    margin-top: 30px;
+    /* background-color: darkgoldenrod; */
+    align-items: center;
+    width: 700px;
+    height: 100px;
+    margin-top: 30px;
+    border: 2px dashed #9B9B9B;
+    border-radius: 8px;
+}
+.textup{
+    padding-top: 34px;
+    padding-bottom: 34px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #9B9B9B;
+
+}
+.box2{
+    margin-top: 34px;
+    width: 700px;
+    height: 175px;
+    border: 1px solid #DB3022;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.box2txt{
+    padding-left: 25px;
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+}
+.box2txt2{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 25px;
+}
+.box2 a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 16px;
+    color: #DB3022;
+    padding-left: 25px;
+}
+/* ------------------------------------------------------- */
+.fieldS{
+    border: 1px solid #9B9B9B;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 1px 8px rgba(0, 0, 0, 0.05));
+    border-radius: 4px;
+}
+.form-group label{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9B9B9B;
+}
+.boxC{
+    width: 20px;
+    height: 20px;
+}
+.labelC{
+    padding-left: 13px;
+    padding-top: 5px;
+}
+.buttonfoot{
+    width: 160px;
+    height: 36px;
+    border-radius: 25px;
+
+}
+.firstform{
+    padding-top: 41px;
+}
+/* ----------------------------------------------------------------------- */
+/* payment modal */
+.payment-item{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 26px;
+}
+.method2, .method3{
+    margin-top: 35px;
+}
+.payname2, .payname3{
+    margin-top: 35px;
+}
+.cek2, .cek3{
+    margin-top: 35px;
+}
+.boxpay input{
+    width: 20px;
+    height: 20px;
+}
+.orderDetail{
+    margin-top: 20px;
+    
+}
+.mtitle{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 22px;
+    color: #222222;
+}
+.paymentM{
+    margin-left: 24px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+}
+.paymentM2{
+    margin-top: 30px;
+    margin-left: 24px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+}
+.foot{
+    justify-content: space-between;
+}
+.textWrap{
+    margin-left: 24px;
+}
+.summ{
+    margin-bottom: 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+}
+.total{
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    align-items: center;
+    color: #DB3022;
+}
+.btnSave{
+    width: 160px;
+    height: 36px;
+    font-size: 14px;
+    border-radius: 25px;
+}
+.checkS{
+	-webkit-appearance: none;
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+}
+/* .checkS:active, .checkS:checked:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+} */
+
+.checkS:checked {
+	background-color: #DB3022;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #99a1a7;
+}
+.checkS:checked:after {
+	content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: #FFFFFF;
+}

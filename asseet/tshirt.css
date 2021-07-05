@@ -1,0 +1,188 @@
+@media only screen and (max-width: 600px) {
+    .wrapperHead{
+        display: block !important;
+    }
+    .logo{
+        margin: auto !important;
+        width: fit-content;
+        /* border: 1px solid #000; */
+    }
+    .search-bar{
+       width: 100% !important;
+    }
+    /* .box-container{
+       display: none;
+    }
+    .side-button{
+        display: none;
+    } */
+    .nav{
+       width: 100%;
+    }
+    .nav_link{
+        margin: auto !important;
+    }
+    .nav_link li{
+        padding: 0px 20px !important;
+    }
+}
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Metropolis';
+}
+li{
+    text-decoration: none;
+}
+
+.logo{
+    cursor: pointer;
+    margin: 10px;
+    width: fit-content;
+    /* float: left; */
+    height: auto;
+    padding:0;
+    
+}
+.wrapperHead{
+    padding-top: 15px;
+    display: flex;
+    height: auto;
+    /* border: 1px solid #000; */
+    justify-content: space-between;
+    /*color: #ffff;
+    align-items: center;
+    padding: 30px 10%;*/
+    box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25); 
+}
+.img2{
+    padding-top: 10px;
+}
+.search-bar{
+    width: 507px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.box-container{
+    /* margin: auto; */
+    margin-right: 10px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #8E8E93;
+    border-radius: 23px;
+
+}
+.element{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.search{
+    border: none;
+    background: none;
+    padding-top: 9px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+.search:focus{
+    outline: none;
+}
+.side-button{
+    /* margin-left: 10px;
+    margin-top: 10px; */
+}
+.side-button button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #8E8E93;
+    border-radius: 12px;
+    background: none;
+    cursor: pointer;
+    
+}
+/* .nav{
+    border: 1px solid tomato;
+} */
+.nav_link{
+    list-style: none;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.nav_link li{
+    display: inline-block;
+    padding: 0px 2px;
+    /* height: 100%; */
+}
+.nav_link li a img{
+    margin: 10px;
+}
+/* --------------------------- navbar css ---------------------------------------------*/
+.breadcrumb{
+    margin-top: 50px;
+    background: none;
+}
+.breadcrumb li{
+    color:  #9B9B9B;
+    font-size: 14px;
+}
+.breadcrumb li a{
+    color:  #9B9B9B;
+    font-size: 14px;
+}
+/* --------------------------------------------------------------- */
+.texthead2{
+    margin-top: 50px;   
+}
+.text-category{
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 34px;
+}
+.cardS{
+    /* width: 208px; */
+    /* height: 300px; */
+    border-radius: 6px;
+    margin-top: 25px;
+    white-space: nowrap;
+    box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+}
+.card-body h5{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.pr{
+    color: #DB3022;
+}
+.card-body p{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: #9B9B9B;
+    padding-bottom: 6px;
+
+}
+.starcard{
+    display: flex;
+}
+.str-imgC{
+    width: 13px;
+    height: 12px;
+}
+.ratecard{
+    justify-content: center;
+    padding-top: 2px;
+    font-size: 10px;
+    line-height: 8px;
+    color: #9B9B9B;
+
+}

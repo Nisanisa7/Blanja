@@ -1,0 +1,364 @@
+@media only screen and (max-width: 600px) {
+    .wrapperHead{
+        display: block !important;
+    }
+    .logo{
+        margin: auto !important;
+        width: fit-content;
+        /* border: 1px solid #000; */
+    }
+    .search-bar{
+       width: 100% !important;
+    }
+    /* .box-container{
+       display: none;
+    }
+    .side-button{
+        display: none;
+    } */
+    .nav{
+       width: 100%;
+    }
+    .nav_link{
+        margin: auto !important;
+    }
+    .nav_link li{
+        padding: 0px 20px !important;
+    }
+}
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Metropolis';
+}
+li{
+    text-decoration: none;
+}
+
+.logo{
+    cursor: pointer;
+    margin: 10px;
+    width: fit-content;
+    /* float: left; */
+    height: auto;
+    padding:0;
+    
+}
+.wrapperHead{
+    padding-top: 15px;
+    display: flex;
+    height: auto;
+    /* border: 1px solid #000; */
+    justify-content: space-between;
+    /*color: #ffff;
+    align-items: center;
+    padding: 30px 10%;*/
+    box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25); 
+}
+.img2{
+    padding-top: 10px;
+}
+.search-bar{
+    width: 507px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.box-container{
+    /* margin: auto; */
+    margin-right: 10px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #8E8E93;
+    border-radius: 23px;
+
+}
+.element{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.search{
+    border: none;
+    background: none;
+    padding-top: 9px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+.search:focus{
+    outline: none;
+}
+.side-button{
+    /* margin-left: 10px;
+    margin-top: 10px; */
+}
+.side-button button{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #8E8E93;
+    border-radius: 12px;
+    background: none;
+    cursor: pointer;
+    
+}
+/* .nav{
+    border: 1px solid tomato;
+} */
+.nav_link{
+    list-style: none;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.nav_link li{
+    display: inline-block;
+    padding: 0px 2px;
+    /* height: 100%; */
+}
+.nav_link li a img{
+    margin: 10px;
+}
+/* --------------------------- navbar css ---------------------------------------------*/
+
+.head-corou{
+    
+    margin-top: 47px;
+}
+.image-slide{
+    width: fit-content;
+}
+/* ---------------------------------end of corousel1  */
+
+.texthead{
+    padding-top: 40px;
+    
+}
+.text-category{
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 34px;
+}
+.text-smol{
+    padding-top: 4px;
+    color: #9B9B9B;
+    font-size: 12px;
+}
+/* -----------------------------corousel2s */
+.headCor{
+    margin-top: 0px;
+}
+.carousel-cell {
+    /* width: 66%; */
+    /* height: 200px; */
+    margin-right: 10px;
+    border-radius: 5px;
+    /* background-color: aquamarine; */
+    counter-increment: carousel-cell;
+  }
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(carousel-cell);
+    line-height: 0px;
+    /* font-size: 80px; */
+    color: white;
+  }
+
+  /* -------------------------------------------- */
+
+.small-item{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+.img1{
+    padding-left: 28px;
+    border-radius: 8px;
+}
+.texthead2{
+    margin-top: 50px;   
+}
+
+/* --------------------------- */
+/* -----------card */
+.row2{
+    margin-top: 25px;
+}
+.cardS{
+    /* width: 208px; */
+    /* height: 300px; */
+    border-radius: 6px;
+    margin-top: 25px;
+    white-space: nowrap;
+    box-shadow: 0px 0px 14px rgba(173, 173, 173, 0.25);
+}
+.card-body h5{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.pr{
+    color: #DB3022;
+}
+.card-body p{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: #9B9B9B;
+    padding-bottom: 6px;
+
+}
+.starcard{
+    display: flex;
+}
+.str-imgC{
+    width: 13px;
+    height: 12px;
+}
+.ratecard{
+    justify-content: center;
+    padding-top: 2px;
+    font-size: 10px;
+    line-height: 8px;
+    color: #9B9B9B;
+
+}
+/* --------------- MOODAL FILTER-------- */
+.checkmark{
+    height: 36px;
+    width: 36px;
+    /* background-color: red; */
+    -webkit-appearance: none;
+    border-radius: 50%;
+    vertical-align: middle;
+    outline: none;
+    cursor: pointer;
+    border: 3px solid #fff;
+}
+.bg-red, .bg-shiro, .bg-khaki, .bg-donker, .bg-ginger{
+    margin-left: 20px;
+}
+.bg-black{
+    background-color: #1A1A1A;
+}
+.bg-black:checked{
+  box-shadow: 0px 0px 0px 1px #1A1A1A;
+}
+.bg-shiro{
+    background-color: #FFFF;
+    border: 3px solid rgb(230, 226, 226);
+}
+.bg-shiro:checked{
+  box-shadow: 0px 0px 0px 1px #8E8E93;
+}
+.bg-red{
+    background-color: #D84242;
+}
+.bg-red:checked{
+  box-shadow: 0px 0px 0px 1px #D84242;
+}
+.bg-khaki{
+    background-color:  #BEA9A9;
+}
+.bg-khaki:checked{
+  box-shadow: 0px 0px 0px 1px  #BEA9A9;
+}
+.bg-ginger{
+    background-color: #E2BB8D;
+}
+.bg-ginger:checked{
+  box-shadow: 0px 0px 0px 1px #E2BB8D;
+}
+.bg-donker{
+    background-color:  #151867;
+}
+.bg-donker:checked{
+    box-shadow: 0px 0px 0px 1px #151867;
+}
+.sizeBtn{
+    margin-left: 16px;
+}
+.colorChoise p{
+    font-size: 16px;
+    line-height: 16px;
+    color: #222222;
+}
+.sizeWrap label{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #222222;
+
+}
+.btn{
+    border: 0.4px solid #9B9B9B;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.categoryWrap label{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #222222;
+}
+.btnCat{
+    width: 100px;
+    height: 40px;
+    padding-top: 8px;
+}
+.boyeGal{
+    margin-top: 10px;
+}
+.flexBrand{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.brandwrap1{
+    width: 500px;
+
+}
+.brandwrap1 label{
+    font-size: 11px;
+    line-height: 11px;
+    align-items: center;
+    color: #9B9B9B;
+    margin-top: 1px;
+}
+.brand{
+    margin-bottom: 0;
+}
+.dropImg{
+
+    width: 20px;
+    margin-left: 100px;
+    text-align-last: right;
+}
+.modal-footer{
+    justify-content: center;
+}
+.modal-footer button{
+    width: 160px;
+    height: 36px;
+    border-radius: 24px;
+}
+/* ---------------------------- */
+.notifModal{
+    margin-left: auto;
+    margin-right: auto;
+}
+.imageModal{
+    width: 50%;
+}
